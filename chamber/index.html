@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>San Juan Chamber of Commerce</title>
+    <meta name="description" content="Chamber Argentina.">
+    <meta name="author" content="Angela Chacon">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/java.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>San Juan Chamber of Commerce</h1>
+        <p>Connecting businesses in San Juan, Argentina</p>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="hero">
+            <img src="images/hero-image.jpg" alt="Argentina" class="hero-image">
+            <div class="hero-text">
+                <h2>Welcome to the Argentina Chamber of Commerce</h2>
+                <p>Empowering businesses and building community in Argentina.</p>
+                <a href="join.html" class="cta-button">Join the Chamber</a>
+            </div>
+        </section>
+        
+        <section class="events">
+            <h2>Upcoming Events</h2>
+            <ul>
+                <li>Networking Night - 2024-12-10</li>
+                <li>Local Business Fair - 2024-12-15</li>
+                <li>End of Year Dinner - 2024-12-20</li>
+            </ul>
+        </section>
+
+        <section class="weather">
+            <h2>Current Weather</h2>
+            <div id="weather">
+                <p>Loading weather data...</p>
+            </div>
+        </section>
+
+        <section id="spotlights" class="spotlights">
+            <div class="spotlight-card">
+                <img src="images/apple_logo.png" alt="Apple Store">
+                <h3>Apple Store</h3>
+                <p>505 Technology Drive</p>
+                <p>800-555-5055</p>
+                <a href="https://www.apple.com" target="_blank">Visit Website</a>
+            </div>
+            <div class="spotlight-card">
+                <img src="images/nike_logo.png" alt="Nike Store">
+                <h3>Nike Store</h3>
+                <p>404 Sports Lane</p>
+                <p>800-555-4044</p>
+                <a href="https://www.nike.com" target="_blank">Visit Website</a>
+            </div>
+            <div class="spotlight-card">
+                <img src="images/microsoft_logo.png" alt="Microsoft Store">
+                <h3>Microsoft Store</h3>
+                <p>202 Innovation Road</p>
+                <p>800-555-2022</p>
+                <a href="https://www.microsoft.com" target="_blank">Visit Website</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Angela Chacon | San Juan, Argentina</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>

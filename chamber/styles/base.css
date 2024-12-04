@@ -1,0 +1,114 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background: #1a1a1a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    background: #333;
+    padding: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.hero-image {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #f5f5f5;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+    background: #1a1a1a;
+    color: white;
+}
+
+.events, .weather {
+    padding: 20px;
+    text-align: center;
+    background: white;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.events li {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+/* Spotlights Section */
+.spotlights {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: stretch; /* Alinear verticalmente */
+    gap: 20px; /* Espacio entre tarjetas */
+    padding: 20px;
+    flex-wrap: wrap; /* Permitir que las tarjetas bajen a otra fila si hay poco espacio */
+}
+
+.spotlight-card {
+    flex: 0 0 300px; /* Establecer un ancho fijo para las tarjetas */
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.spotlight-card img {
+    max-width: 80px; /* Tamaño controlado */
+    max-height: 80px;
+    object-fit: contain;
+    margin: 0 auto 10px auto; /* Centrar la imagen horizontalmente */
+    border-radius: 5px;
+}
+
+.spotlight-card:hover {
+    transform: scale(1.03);
+}
+
+
+footer {
+    background: #1a1a1a;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}

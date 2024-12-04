@@ -76,15 +76,14 @@ header nav ul li a {
 /* Spotlights Section */
 .spotlights {
     display: flex;
-    justify-content: center; /* Centrar horizontalmente */
-    align-items: stretch; /* Alinear verticalmente */
-    gap: 20px; /* Espacio entre tarjetas */
+    justify-content: center; 
+    align-items: stretch; 
+    gap: 20px; 
     padding: 20px;
-    flex-wrap: wrap; /* Permitir que las tarjetas bajen a otra fila si hay poco espacio */
-}
+    flex-wrap: wrap; }
 
 .spotlight-card {
-    flex: 0 0 300px; /* Establecer un ancho fijo para las tarjetas */
+    flex: 0 0 300px; 
     background: white;
     padding: 15px;
     border-radius: 8px;
@@ -94,10 +93,10 @@ header nav ul li a {
 }
 
 .spotlight-card img {
-    max-width: 80px; /* Tamaño controlado */
+    max-width: 80px; 
     max-height: 80px;
     object-fit: contain;
-    margin: 0 auto 10px auto; /* Centrar la imagen horizontalmente */
+    margin: 0 auto 10px auto; 
     border-radius: 5px;
 }
 

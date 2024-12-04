@@ -2,7 +2,7 @@ const apiKey = '4c8ce712147ea4a8c5a64ee66ad78c88';
 const weatherUrl = `https://api.openweathermap.org/data/2.5/forecast?q=San%20Juan,AR&units=metric&appid=${apiKey}`;
 
 
-// Obtener el clima actual
+//clima
 async function getWeather() {
     try {
         const city = 'San Juan';
@@ -25,7 +25,6 @@ async function getWeather() {
     }
 }
 
-// Cargar los spotlight members
 async function loadSpotlights() {
     const spotlightContainer = document.getElementById('spotlights');
     spotlightContainer.innerHTML = `<p>Loading...</p>`;
@@ -40,7 +39,7 @@ async function loadSpotlights() {
         }
 
         const spotlights = goldAndSilver.sort(() => 0.5 - Math.random()).slice(0, 3);
-        spotlightContainer.innerHTML = ''; // Clear loading message
+        spotlightContainer.innerHTML = ''; 
 
         spotlights.forEach(member => {
             const card = document.createElement('div');
@@ -60,15 +59,15 @@ async function loadSpotlights() {
     }
 }
 
-// Capitalizar descripciones
+
 function capitalize(text) {
     return text.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
 }
 
-// Manejar las fechas en el footer
+
 document.getElementById('currentYear').textContent = new Date().getFullYear();
 document.getElementById('lastModified').textContent = document.lastModified;
 
-// Ejecutar las funciones iniciales
+
 getWeather();
 loadSpotlights();

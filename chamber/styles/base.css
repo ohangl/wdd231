@@ -38,8 +38,8 @@ header nav ul li a {
 
 .hero-image {
     display: block;
-    margin: 0 auto 20px;
-    max-width: 100%;
+    margin: 10px auto 20px;
+    max-width: 80%;
     border-radius: 10px;
 }
 

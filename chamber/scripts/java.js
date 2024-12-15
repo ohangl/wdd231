@@ -69,5 +69,23 @@ document.getElementById('currentYear').textContent = new Date().getFullYear();
 document.getElementById('lastModified').textContent = document.lastModified;
 
 
+// Handle modal open and close
+document.querySelectorAll('.open-modal').forEach((btn) => {
+    btn.addEventListener('click', (e) => {
+        const modalId = e.target.dataset.modal;
+        const modal = document.getElementById(modalId);
+        modal.classList.add('active');
+    });
+});
+
+document.querySelectorAll('.close-modal').forEach((btn) => {
+    btn.addEventListener('click', () => {
+        const modal = btn.closest('.modal');
+        modal.classList.remove('active');
+    });
+});
+
+
+
 getWeather();
 loadSpotlights();

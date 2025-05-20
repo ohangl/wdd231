@@ -1,0 +1,66 @@
+[
+    {
+        "name": "Starbucks Coffee",
+        "address": "123 Main Street",
+        "phone": "800-555-1234",
+        "website": "https://www.starbucks.com",
+        "image": "starbucks.png",
+        "membership": 3
+    },
+    {
+        "name": "Planet Fitness",
+        "address": "456 Health Avenue",
+        "phone": "800-555-5678",
+        "website": "https://www.planetfitness.com",
+        "image": "Planet-Fitness-Logo.png",
+        "membership": 2
+    },
+    {
+        "name": "Subway Sandwiches",
+        "address": "789 Food Plaza",
+        "phone": "800-555-7890",
+        "website": "https://www.subway.com",
+        "image": "subwaylogo.jpg",
+        "membership": 1
+    },
+    {
+        "name": "Microsoft Store",
+        "address": "202 Innovation Road",
+        "phone": "800-555-2022",
+        "website": "https://www.microsoft.com",
+        "image": "microsof.jpg",
+        "membership": 2
+    },
+    {
+        "name": "The Home Depot",
+        "address": "303 DIY Street",
+        "phone": "800-555-3033",
+        "website": "https://www.homedepot.com",
+        "image": "homedepot.png",
+        "membership": 1
+    },
+    {
+        "name": "Nike Store",
+        "address": "404 Sports Lane",
+        "phone": "800-555-4044",
+        "website": "https://www.nike.com",
+        "image": "nikelogo.png",
+        "membership": 3
+    },
+    {
+        "name": "Apple Store",
+        "address": "505 Technology Drive",
+        "phone": "800-555-5055",
+        "website": "https://www.apple.com",
+        "image": "Apple-Logo.png",
+        "membership": 2
+    },
+    {
+        "name": "McDonald's",
+        "address": "606 Fast Food Lane",
+        "phone": "800-555-6066",
+        "website": "https://www.mcdonalds.com",
+        "image": "mcdonalds.jpg",
+        "membership": 1
+    }
+]

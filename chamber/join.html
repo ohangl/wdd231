@@ -32,7 +32,8 @@
     </header>
 
     <main>
-        <h2>Join the Chamber</h2>
+        <h1>JOIN US!</h1>
+        <h2>Please complete the next form</h2>
         <form action="thankyou.html" method="get">
             <label>
                 First Name:
@@ -58,15 +59,20 @@
                 Organization Name:
                 <input type="text" name="organization" required title="Organization Name" autocomplete="organization">
             </label>
-            <label>
-                Membership Level:
-                <select name="membership_level" required>
-                    <option value="NP">Non-Profit</option>
-                    <option value="Bronze">Bronze</option>
-                    <option value="Silver">Silver</option>
-                    <option value="Gold">Gold</option>
-                </select>
-            </label>
+            <label for="organization_description">
+                Organization Description:</label>
+            <textarea id="organization_description" name="organization_description" title="Organization Description"></textarea>
+
+            
+            <label for="membership_level">Membership Level:</label>
+                 <select id="membership_level" name="membership_level" required>
+                     <option value="" disabled selected>Select your membership level</option>
+                     <option value="NP">Non-Profit</option>
+                     <option value="Bronze">Bronze</option>
+                     <option value="Silver">Silver</option>
+                     <option value="Gold">Gold</option>
+                 </select>
+
             <input type="hidden" name="timestamp" id="timestamp">
             <button type="submit">Submit Application</button>
         </form>

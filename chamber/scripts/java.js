@@ -114,3 +114,11 @@ document.querySelectorAll('.close-modal').forEach((btn) => {
 
 getWeather();
 loadSpotlights();
+
+
+// Asignar timestamp actual al campo hidden del formulario
+const timestampInput = document.getElementById('timestamp');
+if (timestampInput) {
+    const now = new Date();
+    timestampInput.value = now.toLocaleString(); // O .toISOString() si preferís formato ISO
+}

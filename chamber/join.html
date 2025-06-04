@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Argentina Chamber of Commerce | Home</title>
+    <meta name="description" content="Official Join page of the Argentina Chamber of Commerce. Discover events, local businesses, and join the effort to grow our community.">
+    <meta name="author" content="Angela Chacon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <meta property="og:title" content=" Chamber of Commerce in Argentina">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://ohangl.github.io/wdd231/chamber/images/hero-image.jpg">
+    <meta property="og:url" content="https://ohangl.github.io/wdd231/chamber">
+    <meta property="og:description" content="Empowering businesses, fostering growth, and building community connections in  Argentina.">
+    <link rel="stylesheet" href="styles/join.css">
+</head>
+
+
+<body>
+    <header>
+        <h1>Argentina Chamber of Commerce</h1>
+        <p>Connecting businesses in Argentina</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="join.html" class="active">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Join the Chamber</h2>
+        <form action="thankyou.html" method="get">
+            <label>
+                First Name:
+                <input type="text" name="first_name" required title="First Name" autocomplete="given-name">
+            </label>
+            <label>
+                Last Name:
+                <input type="text" name="last_name" required title="Last Name" autocomplete="family-name">
+            </label>
+            <label>
+                 Title:
+                <input type="text" name="organization_title" autocomplete="organization-title" pattern="[A-Za-z\s\-]{7,}" title="At least 7 characters, letters, spaces, and hyphens allowed">
+            </label>
+            <label>
+                Email:
+                <input type="email" name="email" required title="Email Address" autocomplete="email" placeholder="example@domain.com">
+            </label>
+            <label>
+                Mobile Phone:
+                <input type="tel" name="mobile_phone" required title="Mobile Phone" autocomplete="tel">
+            </label>
+            <label>
+                Organization Name:
+                <input type="text" name="organization" required title="Organization Name" autocomplete="organization">
+            </label>
+            <label>
+                Membership Level:
+                <select name="membership_level" required>
+                    <option value="NP">Non-Profit</option>
+                    <option value="Bronze">Bronze</option>
+                    <option value="Silver">Silver</option>
+                    <option value="Gold">Gold</option>
+                </select>
+            </label>
+            <input type="hidden" name="timestamp" id="timestamp">
+            <button type="submit">Submit Application</button>
+        </form>
+
+        <section class="membership-levels">
+            <div class="card">
+                <h4>Non-Profit Membership</h4>
+                <button class="open-modal" data-modal="npModal">Learn More</button>
+            </div>
+            <div class="card">
+                <h4>Bronze Membership</h4>
+                <button class="open-modal" data-modal="bronzeModal">Learn More</button>
+            </div>
+            <div class="card">
+                <h4>Silver Membership</h4>
+                <button class="open-modal" data-modal="silverModal">Learn More</button>
+            </div>
+            <div class="card">
+                <h4>Gold Membership</h4>
+                <button class="open-modal" data-modal="goldModal">Learn More</button>
+            </div>
+        </section>
+
+        
+        <div id="npModal" class="modal">
+            <div class="modal-content">
+                <h3>Non-Profit Membership</h3>
+                <p>No fee. Designed for non-profit organizations to participate in the community.</p>
+                <button class="close-modal">Close</button>
+            </div>
+        </div>
+        <div id="bronzeModal" class="modal">
+            <div class="modal-content">
+                <h3>Bronze Membership</h3>
+                <p>Basic membership with access to events and limited advertising.</p>
+                <button class="close-modal">Close</button>
+            </div>
+        </div>
+        <div id="silverModal" class="modal">
+            <div class="modal-content">
+                <h3>Silver Membership</h3>
+                <p>Includes event discounts and mid-level advertising opportunities.</p>
+                <button class="close-modal">Close</button>
+            </div>
+        </div>
+        <div id="goldModal" class="modal">
+            <div class="modal-content">
+                <h3>Gold Membership</h3>
+                <p>Premium events, advertising opportunities, and exclusive discounts.</p>
+                <button class="close-modal">Close</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Argentina Chamber of Commerce</p>
+    </footer>
+    <script src="scripts/java.js" defer></script>
+</body>
+
+</html>

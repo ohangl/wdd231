@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Argentina Chamber of Commerce | Home</title>
+    <meta name="description" content="Official Thank You page of the Argentina Chamber of Commerce. Discover events, local businesses, and join the effort to grow our community.">
+    <meta name="author" content="Angela Chacon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <meta property="og:title" content=" Chamber of Commerce in Argentina">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://ohangl.github.io/wdd231/chamber/images/hero-image.jpg">
+    <meta property="og:url" content="https://ohangl.github.io/wdd231/chamber">
+    <meta property="og:description" content="Empowering businesses, fostering growth, and building community connections in  Argentina.">
+    <link rel="stylesheet" href="styles/thankyou.css">
+</head>
+
+<body>
+    <header>
+        <h1>Thank You!</h1>
+    </header>
+
+    <main>
+        <section class="thank-you-box">
+            <h2>Your Application Has Been Submitted</h2>
+            <p>
+                Thank you for applying to join the Argentina Chamber of Commerce! Below is the information you provided:
+            </p>
+            <ul>
+                <li><strong>First Name:</strong> <span id="firstName"></span></li>
+                <li><strong>Last Name:</strong> <span id="lastName"></span></li>
+                <li><strong>Email:</strong> <span id="email"></span></li>
+                <li><strong>Mobile Number:</strong> <span id="mobile"></span></li>
+                <li><strong>Business Name:</strong> <span id="businessName"></span></li>
+                <li><strong>Submitted On:</strong> <span id="timestamp"></span></li>
+            </ul>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Argentina Chamber of Commerce</p>
+    </footer>
+
+    <script>
+        
+        const params = new URLSearchParams(window.location.search);
+
+        document.getElementById('firstName').textContent = params.get('first_name') || 'N/A';
+        document.getElementById('lastName').textContent = params.get('last_name') || 'N/A';
+        document.getElementById('email').textContent = params.get('email') || 'N/A';
+        document.getElementById('mobile').textContent = params.get('mobile_phone') || 'N/A';
+        document.getElementById('businessName').textContent = params.get('organization') || 'N/A';
+        document.getElementById('timestamp').textContent = params.get('timestamp') || 'N/A';
+    </script>
+</body>
+
+</html>

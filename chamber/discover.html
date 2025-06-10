@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Argentina Chamber of Commerce | Discover</title>
-  <meta name="description" content="Explore the top attractions and features of our area." />
+  <meta name="description" content="Discover Argentina’s most iconic landmarks—from Iguazú Falls to Perito Moreno—through our interactive gallery. Plan your visit or learn more about each site." />
   <meta name="author" content="Angela Chacon" />
   <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
   <meta property="og:title" content="Chamber Discover Page" />
   <meta property="og:type"  content="website" />
-  <meta property="og:image" content="images/central-plaza.webp" />
+  <meta property="og:image" content="images/cataratas.webp" />
   <meta property="og:url"   content="https://ohangl.github.io/wdd231/chamber/discover.html" />
   <meta property="og:description" content="Discover what makes our region special." />
   <link rel="stylesheet" href="styles/base.css" />
@@ -17,7 +17,7 @@
 </head>
 <body>
   <header>
-    <h1>Argentina Chamber of Commerce</h1>
+    
     <p>Connecting businesses in Argentina</p>
     <nav>
       <ul>
@@ -30,11 +30,9 @@
   </header>
 
   <main class="discover-page">
-    <!-- visit-message injected via JS -->
+    <h1>Argentina Chamber of Commerce</h1>
     <aside id="visit-message" class="visit-message"></aside>
-
-    <!-- gallery container; cards injected here -->
-    <section class="gallery"></section>
+  <section class="gallery"></section>
   </main>
 
   <footer>
@@ -42,7 +40,7 @@
     <p>Last Modified: <span id="lastModified"></span></p>
   </footer>
 
-  <!-- discover page logic -->
+
   <script src="scripts/discover.js" defer></script>
 </body>
 </html>

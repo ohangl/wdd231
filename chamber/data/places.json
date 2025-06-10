@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Cataratas del Iguazú",
+    "address": "Parque Nacional Iguazú, Misiones",
+    "description": "One of the largest and most spectacular waterfalls in the world.",
+    "image": "images/cataratas.webp"
+  },
+  {
+    "title": "Circuito Chico",
+    "address": "Bariloche, Río Negro",
+    "description": "Scenic route skirting the Nahuel Huapi Lake.",
+    "image": "images/circuitochico.webp"
+  },
+  {
+    "title": "Teatro Colón",
+    "address": "Cerrito 628, Buenos Aires",
+    "description": "One of the most famous and beautiful opera houses in the world.",
+    "image": "images/colon.webp"
+  },
+  {
+    "title": "Ushuaia – End of the World",
+    "address": "Ushuaia, Tierra del Fuego",
+    "description": "The southernmost city on the planet, gateway to the Beagle Channel.",
+    "image": "images/finmundo.webp"
+  },
+  {
+    "title": "Cerro Las Leñas",
+    "address": "Las Leñas, Mendoza",
+    "description": "Ski resort with incredible views and slopes for all levels.",
+    "image": "images/leñas.webp"
+  },
+  {
+    "title": "Mar del Plata",
+    "address": "Mar del Plata, Buenos Aires",
+    "description": "The most famous beach city on Argentina’s Atlantic coast.",
+    "image": "images/mardel.webp"
+  },
+  {
+    "title": "Perito Moreno Glacier",
+    "address": "Los Glaciares National Park, Santa Cruz",
+    "description": "Glacier known for its constant icefalls and scenic walkways.",
+    "image": "images/perito.webp"
+  },
+  {
+    "title": "Quebrada de Humahuaca",
+    "address": "Purmamarca, Jujuy",
+    "description": "UNESCO World Heritage valley of multicolored hills.",
+    "image": "images/quebrada.webp"
+  }
+]

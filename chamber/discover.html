@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Argentina Chamber of Commerce | Discover</title>
+  <meta name="description" content="Explore the top attractions and features of our area." />
+  <meta name="author" content="Angela Chacon" />
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+  <meta property="og:title" content="Chamber Discover Page" />
+  <meta property="og:type"  content="website" />
+  <meta property="og:image" content="images/central-plaza.webp" />
+  <meta property="og:url"   content="https://ohangl.github.io/wdd231/chamber/discover.html" />
+  <meta property="og:description" content="Discover what makes our region special." />
+  <link rel="stylesheet" href="styles/base.css" />
+   <link rel="stylesheet" href="styles/normalize.css" />
+</head>
+<body>
+  <header>
+    <h1>Argentina Chamber of Commerce</h1>
+    <p>Connecting businesses in Argentina</p>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="discover.html" class="active">Discover</a></li>
+        <li><a href="join.html">Join</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="discover-page">
+    <!-- visit-message injected via JS -->
+    <aside id="visit-message" class="visit-message"></aside>
+
+    <!-- gallery container; cards injected here -->
+    <section class="gallery"></section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="currentYear"></span> Argentina Chamber of Commerce</p>
+    <p>Last Modified: <span id="lastModified"></span></p>
+  </footer>
+
+  <!-- discover page logic -->
+  <script src="scripts/discover.js" defer></script>
+</body>
+</html>

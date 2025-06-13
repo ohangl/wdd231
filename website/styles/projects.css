@@ -1,0 +1,146 @@
+body {
+    font-family: 'Archivo Black', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #D41919;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    background-color: #000000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.logo {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 2rem;
+    color: #D41919;
+}
+
+.hamburger {
+    display: none;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: #D41919;
+    cursor: pointer;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: #D41919;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background-color: #000;
+        position: absolute;
+        top: 60px;
+        width: 100%;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+}
+
+main {
+    flex-grow: 1;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.projects {
+    max-width: 1200px;
+    width: 100%;
+}
+
+.projects h1 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+/* Project Items */
+.project-item {
+    display: flex;
+    margin-bottom: 30px;
+    border: 1px solid #D41919;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.project-item img {
+    max-width: 300px;
+    margin-right: 20px;
+}
+
+.project-info {
+    font-family: 'Roboto', sans-serif;
+    color: #d4d4d4;
+}
+
+
+.service-item, .skill-item {
+    border: 1px solid #D41919;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: #111;
+    font-family: 'Roboto', sans-serif;
+    color: #d4d4d4;
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content {
+    background-color: #000;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #D41919;
+    width: 80%;
+    color: #D41919;
+}
+
+.close-button {
+    color: #D41919;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}

@@ -1,0 +1,111 @@
+[
+  {
+    "type": "Project",
+    "title": "MultiSoluciones Tech",
+    "year": 2023,
+    "category": "COLORFUL",
+    "description": "Vibrant product images for social media, maintaining a consistent color palette. -ADOBE ILUSTRATOR/CANVA.",
+    "image": "images/project1.png"
+  },
+  {
+    "type": "Project",
+    "title": "Share As a Kid: Drawing",
+    "year": 2022,
+    "category": "DRAWING",
+    "description": "Convey messages creatively with the innocence of childhood. -PHOTOSHOP/CANVA.",
+    "image": "images/project2.png"
+  },
+  {
+    "type": "Project",
+    "title": "CLASSIC BUT GOLDIE",
+    "year": 2023,
+    "category": "BASIC EDITION",
+    "description": "Emphasizing simplicity to highlight the product.-PHOTOSHOP/ADOBE ILLUSTRATOR.",
+    "image": "images/project4.png"
+  },
+  {
+    "type": "Project",
+    "title": "MultiSoluciones LOGO",
+    "year": 2022,
+    "category": "LOGO",
+    "description": "Simple, effective logos designed for brand identity. -PHOTOSHOP.",
+    "image": "images/project3.png"
+  },
+  {
+    "type": "Service",
+    "name": "Web Design Package",
+    "duration": "4 weeks",
+    "price": "$1500",
+    "includes": "Custom responsive website, mobile optimization, contact form"
+  },
+  {
+    "type": "Service",
+    "name": "Social Media Management",
+    "duration": "Monthly",
+    "price": "$800",
+    "includes": "Content creation, scheduling, engagement monitoring"
+  },
+  {
+    "type": "Service",
+    "name": "Brand Identity Package",
+    "duration": "3 weeks",
+    "price": "$1200",
+    "includes": "Logo, typography, color palette, style guide"
+  },
+  {
+    "type": "Service",
+    "name": "Digital Marketing Campaign",
+    "duration": "6 weeks",
+    "price": "$2500",
+    "includes": "SEO, paid ads, analytics, reporting"
+  },
+  {
+    "type": "Skill",
+    "name": "Adobe Photoshop",
+    "level": "Expert",
+    "experience": "5 years",
+    "rating": "★★★★★"
+  },
+  {
+    "type": "Skill",
+    "name": "Canva",
+    "level": "Advanced",
+    "experience": "4 years",
+    "rating": "★★★★☆"
+  },
+  {
+    "type": "Skill",
+    "name": "Adobe Illustrator",
+    "level": "Advanced",
+    "experience": "3 years",
+    "rating": "★★★★☆"
+  },
+  {
+    "type": "Skill",
+    "name": "Social Media Marketing",
+    "level": "Expert",
+    "experience": "5 years",
+    "rating": "★★★★★"
+  },
+  {
+    "type": "Skill",
+    "name": "Figma",
+    "level": "Intermediate",
+    "experience": "2 years",
+    "rating": "★★★☆☆"
+  },
+  {
+    "type": "Skill",
+    "name": "Project Management",
+    "level": "Advanced",
+    "experience": "4 years",
+    "rating": "★★★★☆"
+  },
+  {
+    "type": "Skill",
+    "name": "Video Editing",
+    "level": "Intermediate",
+    "experience": "2 years",
+    "rating": "★★★☆☆"
+  }
+]

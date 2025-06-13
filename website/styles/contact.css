@@ -1,0 +1,129 @@
+/* contact */
+
+body {
+    font-family: 'Archivo Black', sans-serif;
+    margin: 0;
+    padding: 2%;
+    background-color: #000000;
+    color: #D41919;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    background-color: #000000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.logo {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 2rem;
+    color: #D41919;
+}
+
+.hamburger {
+    display: none;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: #D41919;
+    cursor: pointer;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: #D41919;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background-color: #000;
+        position: absolute;
+        top: 60px;
+        width: 100%;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.contact {
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+}
+
+.contact h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 1.3rem;
+    margin-bottom: 40px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #D41919;
+    background-color: #000000;
+    color: #D41919;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #ff0000;
+    color: #000000;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #FF4444;
+}

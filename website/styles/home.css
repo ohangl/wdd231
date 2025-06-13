@@ -1,0 +1,114 @@
+/* home */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 2%;
+    background-color: #D41919;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.logo {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 2rem;
+    color: #000000;
+}
+
+.hamburger {
+    display: none;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: #000000;
+    cursor: pointer;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background-color: #D41919;
+        position: absolute;
+        top: 60px;
+        width: 100%;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+}
+
+main {
+    display: flex;
+    justify-content: left;
+    flex-grow: 1;
+}
+
+.hero {
+    padding: 2rem;
+}
+
+.logo-container {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 5rem;
+}
+
+.separator {
+    width: 5cm;
+    padding-top: 1%;
+    border-bottom: 2px solid #000;
+    margin: 10px 0;
+}
+
+.logo-container p {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.intro-text {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #000000;
+    margin: 20px 0;
+    max-width: 600px;
+    text-align: left;
+}
+
+footer {
+    color: #D41919;
+    background-color: #000;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
